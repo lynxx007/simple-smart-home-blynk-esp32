@@ -19,7 +19,7 @@ Components:
 Steps:
 1. Make sure already have a Blynk account.
 2. Setup Datastream based on code
-3. Make sure make a Event for notifications
+3. Make sure make a Event for notifications if somone enter your house or a gas from LPG detected
 4. Setup configuration in your mobile
 
 
