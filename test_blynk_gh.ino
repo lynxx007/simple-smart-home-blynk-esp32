@@ -94,7 +94,7 @@ void loop()
   doorState = digitalRead(doorPin);
   if(doorState == HIGH){
     Serial.println("The door is open");
-     Blynk.logEvent("seseorang_masuk");
+     Blynk.logEvent("your_event");
   } else {
     // Serial.println("The door is closed");
     
@@ -143,7 +143,7 @@ void checkGasValue()
 
   if (gasValue > thresholdValue)
   {
-    Blynk.logEvent("gas_terdeteksi");  
+    Blynk.logEvent("your_event");  
   }
 }
 BLYNK_WRITE(V5)  
