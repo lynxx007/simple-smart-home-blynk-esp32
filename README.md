@@ -15,6 +15,7 @@ Components:
 4. MQ2 Gas Sensor,
 5. Door Sensor (the one with magnet and reed switch)
 6. 2 LEDs
+7. L298N
 
 Steps:
 1. Make sure already have a Blynk account.
